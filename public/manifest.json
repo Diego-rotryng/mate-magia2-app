@@ -24,5 +24,12 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "540x960",
+      "type": "image/png"
+    }
   ]
 }
