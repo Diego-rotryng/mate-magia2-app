@@ -4,6 +4,7 @@
   "description": "App educativa de matemáticas para niños de 5 a 7 años",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#673ab7",
   "id": "/",
@@ -12,19 +13,21 @@
   },
   "icons": [
     {
-      "src": "/placeholder.svg?height=192&width=192",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "/placeholder.svg?height=512&width=512",
+      "src": "/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "screenshots": [
     {
-      "src": "/placeholder.svg?height=960&width=540",
+      "src": "/screenshot1.png",
       "sizes": "540x960",
       "type": "image/png"
     }
